@@ -33,6 +33,9 @@ int main()
 }  
   
 /* 你的代码将被嵌在这里 */  
+/**
+这个问题还是比较基础的，已经手写练习过一遍 
+**/
 Position BinarySearch(List Tbl, ElementType K) {  
     int left;  
     int right;  
@@ -44,8 +47,10 @@ Position BinarySearch(List Tbl, ElementType K) {
                 return (left + right) / 2;  
             else {  
                 if (K < Tbl->Data[(left + right) / 2])  
+                	//注意，因为Tbl->Data[(l+r)/2],所以-1，右边就不用再在（l+r）/2这个位置找了 
                     right = (left + right) / 2 - 1;  
                 else   
+                	//这个也是同样道理 
                     left = (left + right) / 2 + 1;  
             }  
         }  

@@ -11,6 +11,7 @@ int main()
 {
 	int k;
 	int a[100000];
+	//为什么cin慢？这里不用cin，用什么好？ 
 	cin>>k;
 	for(int i=0;i<k;i++){
 		cin>>a[i];
@@ -23,14 +24,15 @@ int main()
 	int i,j;
 	for(i =0;i<k;i++)
 	{
-		thisSum = 0;
+		thisSum = 0;//这里置0，表示一轮循环已经找出最大子列了，可以下一轮循环再找了 
+		//理解这个循环很关键 
 		for(j=i;j<k;j++)
 		{
-			thisSum += a[j];
+			thisSum += a[j];//累加 
 			if(thisSum > maxSum){
 				first = a[i];
 				last = a[j];
-				maxSum = thisSum;
+				maxSum = thisSum;//这里就是取出最大子列了 
 			}
 		}
 		
