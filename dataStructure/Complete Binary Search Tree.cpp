@@ -7,15 +7,18 @@ The right subtree of a node contains only nodes with keys greater than or equal 
 Both the left and right subtrees must also be binary search trees.
 A Complete Binary Tree (CBT) is a tree that is completely filled, with the possible exception of the bottom level, which is filled from left to right.
 
-Now given a sequence of distinct non-negative integer keys, a unique BST can be constructed if it is required that the tree must also be a CBT. You are supposed to output the level order traversal sequence of this BST.
+Now given a sequence of distinct non-negative integer keys, a unique BST can be constructed if it is required that the tree must also be a CBT. 
+You are supposed to output the level order traversal sequence of this BST.
 
 Input Specification:
 
-Each input file contains one test case. For each case, the first line contains a positive integer N (≤1000). Then N distinct non-negative integer keys are given in the next line. All the numbers in a line are separated by a space and are no greater than 2000.
+Each input file contains one test case. For each case, the first line contains a positive integer N (≤1000). Then N distinct non-negative integer keys are given in the next line. 
+All the numbers in a line are separated by a space and are no greater than 2000.
 
 Output Specification:
 
-For each test case, print in one line the level order traversal sequence of the corresponding complete binary search tree. All the numbers in a line must be separated by a space, and there must be no extra space at the end of the line.
+For each test case, print in one line the level order traversal sequence of the corresponding complete binary search tree.
+ All the numbers in a line must be separated by a space, and there must be no extra space at the end of the line.
 
 Sample Input:
 
@@ -24,6 +27,12 @@ Sample Input:
 Sample Output:
 
 6 3 8 1 5 7 9 0 2 4
+
+解读一下：
+完全二叉搜索树的层次遍历 
+满二叉树： 所有层的节点数都达到最大
+完全二叉树：除最后一层可能不满以外，其他各层都达到该层节点的最大数，最后一层如果不满，该层所有节点都全部靠左排
+完全二叉搜索树： 就是完全二叉树 + 搜索树 
 
 **/
 #include <stdio.h>
