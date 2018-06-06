@@ -101,7 +101,17 @@ void InorderTraversal(BinTree BT) {
 }
 /*二叉搜索树的插入，二叉搜索树左 < 中 < 右**/
 BinTree Insert(BinTree BST, ElementType X) {
+	if (!BST) {//遍历到最后为Insert（null）了，需要创立节点
+		BinTree btree = (BinTree)malloc(sizeof(TNode));
+		btree->Data = X;
+		btree->Left = NULL;
+		btree->Right = NULL;
+	}
 
-
-
+	if (X<BST ->Data) {
+		Insert(BST->Left);
+	}
+	if (X>BST->Data) {
+		Insert(BST->Right);
+	}
 }
