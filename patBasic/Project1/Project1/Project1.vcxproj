@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\1013.cpp" />
+    <ClCompile Include="..\..\..\dataStructure\02.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{688CC772-1C40-4FFA-B1B6-93E3BE669B87}</ProjectGuid>

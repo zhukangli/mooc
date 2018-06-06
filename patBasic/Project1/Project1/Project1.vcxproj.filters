@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\1013.cpp">
+    <ClCompile Include="..\..\..\dataStructure\02.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
