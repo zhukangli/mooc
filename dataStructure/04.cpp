@@ -109,9 +109,9 @@ BinTree Insert(BinTree BST, ElementType X) {
 	}
 
 	if (X<BST ->Data) {
-		Insert(BST->Left);
+		BST->Left = Insert(BST->Left);//有的答案没有最后赋值给BST->Left，我觉得这是错误的
 	}
 	if (X>BST->Data) {
-		Insert(BST->Right);
+		BST->Right = Insert(BST->Right);
 	}
 }
