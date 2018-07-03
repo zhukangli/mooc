@@ -4,6 +4,12 @@
 #include<string>
 using namespace std;
 
+/*
+一道比较基础的题目。要求将数字，用国际表示法表示。如9999表示为9,999
+知识点：
+	1、取模来获得每一位的值
+	2、输出时候要倒序
+*/
 int main() {
 	int a, b,sum;
 	cin >> a; cin >> b;
