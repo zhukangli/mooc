@@ -1,3 +1,11 @@
-﻿  1004 Counting Leaves.cpp
+﻿  1005 Spell It Right.cpp
+e:\workspace\mooc\patadvance\1005 spell it right.cpp(32): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+  e:\workspace\mooc\patadvance\1005 spell it right.cpp(32): note: 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+  e:\workspace\mooc\patadvance\1005 spell it right.cpp(32): note: 缺失的可变参数 2 为格式字符串“%c”所需
+  e:\workspace\mooc\patadvance\1005 spell it right.cpp(32): note: 此参数用作缓冲区大小
+e:\workspace\mooc\patadvance\1005 spell it right.cpp(36): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+  e:\workspace\mooc\patadvance\1005 spell it right.cpp(36): note: 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+  e:\workspace\mooc\patadvance\1005 spell it right.cpp(36): note: 缺失的可变参数 2 为格式字符串“%c”所需
+  e:\workspace\mooc\patadvance\1005 spell it right.cpp(36): note: 此参数用作缓冲区大小
   Project3.vcxproj -> E:\workspace\mooc\patBasic\Project3\Project3\Debug\Project3.exe
   Project3.vcxproj -> E:\workspace\mooc\patBasic\Project3\Project3\Debug\Project3.pdb (Partial PDB)

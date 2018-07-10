@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\patAdvance\1004 Counting Leaves.cpp" />
+    <ClCompile Include="..\..\..\patAdvance\1005 Spell It Right.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{3B120E6C-E9FE-49C4-BD59-50153D879BA9}</ProjectGuid>
