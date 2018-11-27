@@ -1,4 +1,5 @@
-﻿  1103 Integer Factorization.cpp
-e:\workspace\mooc\patadvance\1103 integer factorization.cpp(87): warning C4018: “<”: 有符号/无符号不匹配
-  Project1.vcxproj -> E:\workspace\mooc\patAdvance\Project1\Debug\Project1.exe
-  Project1.vcxproj -> E:\workspace\mooc\patAdvance\Project1\Debug\Project1.pdb (Partial PDB)
+﻿  1034 Head of a Gang.cpp
+1034 Head of a Gang.obj : error LNK2005: _main 已经在 1103 Integer Factorization.obj 中定义
+1034 Head of a Gang.obj : error LNK2005: "int n" (?n@@3HA) 已经在 1103 Integer Factorization.obj 中定义
+1034 Head of a Gang.obj : error LNK2005: "int k" (?k@@3HA) 已经在 1103 Integer Factorization.obj 中定义
+E:\workspace\mooc\patAdvance\Project1\Debug\Project1.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
